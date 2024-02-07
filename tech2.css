@@ -1,0 +1,33 @@
+.container{
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonStyle{
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+.displaySquare {
+  width: 400px;
+  height: 300px;
+  margin-left: 100px;
+  border: 10px solid black;
+  transition: margin-top 0.5s ease-in-out;
+}
+
+
+
+.buttonStyle:hover {
+  transform: scale(1.1); 
+}
